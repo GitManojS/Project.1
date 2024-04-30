@@ -2,6 +2,7 @@ pipeline{
     agent {
         lable 'Node1'
         }
+
          stages{
             stage('Build-System details'){
                 steps{
